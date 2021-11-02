@@ -260,7 +260,7 @@ function LaunchPub() {
                 <img class="img-fluid" src="./static/imgs/publications/${d.img}">
             </div>
             <div class="col-12 col-sm-8 col-xxl-6 d-flex flex-column px-3 float-start">
-                <a href="#" class="fst-italic tx-bolder" target="_blank">${d.title}</a>
+                <a href="${d.link}" class="fst-italic tx-bolder" target="_blank">${d.title}</a>
                 <p class="my-0">${d.authors}</p>
                 <p class="my-0">${d.publisher}</p>
             </div>

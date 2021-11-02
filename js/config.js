@@ -63,7 +63,7 @@ function configNav(active) {
                                 <a class="nav-link d-flex justify-content-center flex-row flex-md-column ${active == 'covic-contains' ? 'active' : ''}" ${active == 'covic-contains' ? 'aria-current="page"' : ''} href="covic-contains.html"><span class="pe-1">COVIC</span><span>Contains</span></a>
                             </li>
                             <li class="nav-item d-md-flex">
-                                <a class="nav-link d-flex justify-content-center flex-row flex-md-column ${active == 'covic-browser' ? 'active' : ''}" ${active == 'covic-browser' ? 'aria-current="page"' : ''} href="https://covic-visualizer.herokuapp.com/" target="_blank" <span class="pe-1">COVIC</span><span>Browser</span></a>
+                                <a class="nav-link d-flex justify-content-center flex-row flex-md-column ${active == 'covic-browser' ? 'active' : ''}" ${active == 'covic-browser' ? 'aria-current="page"' : ''} href="https://covic-visualizer.herokuapp.com/" target="_blank" <span class="pe-1">COVIC</span><span>Visualizer</span></a>
                             </li>
                         </ul>
                         <a class="navbar-brand col-4 text-center d-none d-md-flex flex-row align-items-center justify-content-center" href="index.html"><img id="logo" class="logo" src="./static/imgs/logos/logo.svg"></a>

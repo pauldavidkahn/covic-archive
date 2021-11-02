@@ -107,14 +107,14 @@ const PUBLICATIONS = [{
     },
     {
         title: "The Pandemic That Launched A Thousand Visualizations",
-        link: "http://eyemagazine.com/feature/article/the-pandemic-that-launched-a-thousand-visualisations",
+        link: "//eyemagazine.com/feature/article/the-pandemic-that-launched-a-thousand-visualisations",
         authors: "Paul Kahn",
         publisher: "Eye Magazine 101, Summer 2021",
         img:"Eye.png"
     },
     {
         title: "From scientific visualization to public engagement: learning from a public archive of COVID-19 related visualizations",
-        link: "https://www.malofiejgraphics.com/shop",
+        link: "//www.malofiejgraphics.com/shop",
         authors: "Paolo Ciuccarelli Paul & Kahn",
         publisher: "Malofiej 28, 2021",
         img:"malofiej.png"

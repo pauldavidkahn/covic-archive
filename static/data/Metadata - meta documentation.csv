@@ -1,0 +1,70 @@
+META,CODE,CODE_Link,SUBCODE,SUBCODE_Link,DESCRIPTION
+General,Title,,,,Title that appears in the Web Browser
+General,URL,,,,URL to access the page
+General,Publisher,,,,Name of the publishing organization
+General,Language,,,,"Language used (English, French, etc)"
+General,Country,,,,"Country where the Publisher is based (USA, France, etc)"
+General,Source Type,,News Media,,Published by a news media organization under their name with or without a byline
+General,,,Government,,"Published by a national, regional, state, local government or government agency"
+General,,,NGO,,"Published by a non-governmental organization, educational and/or research institute"
+General,,,Commercial,,Published by a for-profit company
+General,,,Peer-Reviewed Publication,,Scholarly/Scientific article that has gone through the peer-review process
+General,,,Pre-Peer-Reviewed Publication,,Scholarly/Scientific article not yet peer-reviewed
+General,,,Independent Media,,"Self-published, personal projects"
+General,,,Social Media Posts,,"Posts appearing on social media sites, such as Twitter, Facebook, Instagram, YouTube"
+General,Date Recorded,,,,Date when site is entered in COVIC
+General,Date,,,,Publication date indicated on the page. When date is missing this is the earliest date recorded for this URL by Archive.org
+General,Data Source(s),,,,"The source(s) of data for visualization on the page, noted on each figure or for the entire article. Sources are separate with a comma (,) or a semi-colon (;)."
+Type of Visualization,Maps,,Choropleth Map,,"Map that display divided geographical areas or regions that are colored, shaded or patterned in relation to a data variable"
+Type of Visualization,,,Bubble Map,,Maps that display circles over a designated geographical region where the area of the circle is proportional to a data variable
+Type of Visualization,,,Cartogram,,"Map in which the position and symbol(s) rather than the geographic size of a country, state, province, or department correspond to the information associated with that geographic region"
+Type of Visualization,,,Other Map,,Any geographic representation not categorized above.
+Type of Visualization,Bar Charts,,Bar Chart,,"Chart using either horizontal or vertical bars to show discrete, numerical comparisons across categories. One axis of the Chart shows the specific categories being compared and the other axis represents a discrete value scale."
+Type of Visualization,,,Simple Stacked Bar Chart,,Bar Graphs that place each value for the segment after the previous one. The total value of the bar is all the segment values added together.
+Type of Visualization,,,100% Stacked Bar Chart,,Bar Graphs that show the percentage-of-the-whole of each group and are plotted by the percentage of each value to the total amount in each group.
+Type of Visualization,,,Diverging Stacked Bar Chart,,"Bar Chart with the marks for some dimension members pointing up or right, and the marks for other dimension members pointing in the opposite direction (down or left, respectively)."
+Type of Visualization,,,Dumbbell Chart,,"A composite chart made up of two circles, representing data points, connected by a line, representing a data category suitablel for illustrating change and comparing the distance between two groups of data points"
+Type of Visualization,,,Span Chart,,Chart using bars or tick marks to display dataset ranges between a minimum value and a maximum value.
+Type of Visualization,Line Charts,,Line Chart,,Chart displaying information as a series of data points connected by straight line segments. Line graphs are used to track changes over short and long periods of time. Lines for multiple data series are used to compare changes over the same period of time for more than one group.
+Type of Visualization,,,Area Chart,,Chart that fills the area between a line and an axis as a color or texture; used to display the development of quantitative values over an interval or time period.
+Type of Visualization,,,Stacked Area Chart,,Area Graphs that use multiple data series that start each point from the point left by the previous data series.
+Type of Visualization,,,Stream graph,,"A variation of a Stacked Area Graph where values are displaced around a varying central baseline. Stream Graphs display the changes in data over time of different categories through the use of flowing, organic shapes that somewhat resemble a river-like stream."
+Type of Visualization,,,Slope Chart,,A line chart that displays exactly two points in time on the same scale where the slope of the line illustrates the change from Time A to Time B.
+Type of Visualization,Other Charts,,Pie Chart,,"Circular graph model divided into sectors, illustrating proportions."
+Type of Visualization,,,Treemap or Tree Diagram,,"Displays hierarchical data as a set of nested rectangles, which parts combined, make a larger rectangle or as a branching tree. Use to compare sizes between groups and single elements nested in them, or as an alternative to pie graphs with a higher number of categories."
+Type of Visualization,,,Scatterplot,,"A graph of plotted points that show the relationship between two sets of data. Due to its particular structure, it’s able to display a big amount of data. Uses to identify patterns, clusters of elements, and to make outliers values stand out."
+Type of Visualization,,,Network,,A graph where nodes are connected and positioned depending on their mutual relationship. Used to identify clusters in large and complex relationship data set.
+Type of Visualization,,,Bubble Chart,,"A chart using circles proportional to a data value to show relationships among categories or groups, avoiding any kind of axis."
+Type of Visualization,,,Flow Chart,,A chart used to show different behaviors among multiple steps and situations.
+Type of Visualization,,,Sankey Chart,,A type of flow diagram in which the width of the arrows or lines connecting two or more nodes are proportional to a quantity.
+Type of Visualization,,,Heatmap,,Heatmap is a data matrix visualizing values in the cells by the use of a color gradient. Represents mutual correlations of variables within a data set.
+Type of Visualization,,,Isotype,,"A method of showing social, technological, biological, and historical connections in visual form through repetition of pictogram units based on concepts developed by Otto Neurath and the work of the Isotype Institute"
+Type of Visualization,,,Gauge Chart,,A chart using a needle against a round or semi-circular dial to display a single value within a range
+Type of Visualization,,,Radar,,Chart used to represent values of multiple indicators simultaneously through distances from a central point. Connecting these points creates a pattern representing proportional quantities.
+Type of Visualization,Illustration Diagram,,Scientific illustration,,"Illustration meant to convey scientific data, where the drawing corresponds as closely as possible to human anatomy, virus structure, biological process, airflow physics, etc. "
+Type of Visualization,,,Instructional graphic,,"Illustration meant to instruct reader in a process or  behavior such as social distancing, hand washing, making or handling a mask, etc."
+Type of Visualization,Other Chart,,,,Any other visualization type not included above.
+Article Technique,Data Update,,,,Data for the figures in the article are updated on a regularly basis (daily or otherwise)
+Article Technique,Video,,,,Page that contains an embedded video whether or not that video contains visualizations
+Article Technique,Dashboard,,,,"A visual data representation structured as a fixed-size tiled layout, where tiles are made up of different chart types and/or numeric displays."
+Article Technique,Scrollytelling,,,,"Scrollytelling or Parallax scrolling is an HTML technique that animates, reveals or hides content on the screen as the user scrolls a page in the browser."
+Visual Techniques,Small Multiples,,,,"Visualizations include multiples of variations on a single subject, such as the same value for many countries, cities, states, arranged in a row or a grid"
+Visual Techniques,Animating,,Time-series animation,,Animation that visualizes changes to a variable in a time series
+Visual Techniques,,,Transition animation,,Animation of transitions that are bound to data: the view changes because a variable in the data or metadata change.
+Visual Techniques,,,Educational animation,,Animated sequence that explain complex ideas through a series of images
+Interaction Techniques,Navigating,,,,"Position, magnify or reduce a view of a visualization"
+Interaction Techniques,Brushing and Linking,,,,"Brushing (selecting a subset of the data items with an input device) one portion of a visualization that is linked corresponding changes in another part, showing how a point, or set of points, behaves in each of the plots."
+Interaction Techniques,Filtering,,,,"Filter(s) enable users to change the set of data items being presented based on some specific conditions, so that only data items meeting those criteria are presented."
+Interaction Techniques,Mouseover,,,,"Mouseover or mouse click on a data element (line, bar, geographic area) displays additional information about that selection within the visualization."
+Subject,Communicate Medical State,,Medical Magnitude,,"Focus on numbers of cases, hospitalizations, deaths, recoveries from the disease"
+Subject,,,Medical Supplies,,"Focus on quantity of supplies or resources related to managing public health including PPE, Masks, Hospitals, ICU beds, COVID-19 tests, vaccines"
+Subject,Communicate Non-Medical State,,Non-Medical Economic,,"Pandemic impact on economic values such as unemployment, price of oil, loss or gain by industry or country"
+Subject,,,Non-Medical Social,,"Pandemic impact on social factors in the world, regions or countries such as mobility, online behavior, political behaviour, social justice"
+Subject,,,Non-Medical Environmental,,"Pandemic impact on environmental factors such as air, water, wildlife"
+Subject,Communicate Risk,,Risk Historical,,relationship for risk from current pandemic in relation to historical pandemic events
+Subject,,,Risk Future Model,,Predicting future trends and influences based on simulation and modeling
+Subject,,,Risk Flatten the Curve,,"Methods and specific guidelines that will reduce current risks of infection in your region, area, workplace, home as well as reports of the success or failure of these methods"
+Subject,Other,,Transmission and Infection,,Focus on describing how Covid-19 is transmitted and how it infects a population
+Subject,,,Biomedical Research,,"descriptions of biomedical research such as virology, pharmacology, disease behavior, clinical practice, vaccine development, inteded for a professional audience"
+Subject,,,Data Viz Advice,,Advice or critique meant for the data visualization community
+Subject,Notes,,,,"Special features, other language versions in addition to primary language, any insights, etc."

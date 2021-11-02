@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,400;0,700;0,900;1,200;1,700;1,800;1,900&family=Roboto:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./lib/icomoon/css/icomoon.css">
+    <link rel="stylesheet" href="./lib/bootstrap/bootstrap-5.0/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./lib/aos/aos.css" />
+    <link rel="stylesheet" href="./styles/index.css" />
+</head>
+
+<body>
+    <header class="sticky-top"></header>
+    <div class="container-fluid" id="container">
+        <div class="row d-flex align-items-center justify-content-center">
+            <div class="d-flex col-12 col-md-10 col-lg-7 col-xxl-6 flex-column justify-content-center align-items-center">
+                <h1 class="mt-5 bigfont">COVIC Team</h1>
+                <h5 class="my-4">Direction</h5>
+                <div class="d-flex col-12 align-items-center justify-content-center mb-5" data-aos="zoom-in-up">
+                    <div class="d-flex flex-column align-items-center justify-content-center">
+                        <div class="fw-bold">Paul Kahn</div>
+                        <div class="fst-italic fw-light"><a href="mailto:p.kahn@northeastern.edu">p.kahn@northeastern.edu</a></div>
+                    </div>
+                </div>
+                <h5 class="my-4">Partners</h5>
+                <div class="col-10 col-sm-12">
+                    <div class="d-flex col-12 col-sm-6 float-start mb-4" data-aos="zoom-in-up">
+                        <a href="http://www.dubberly.com/" target="_blank"><img src="./static/imgs/logos/ddo.png" class="sponser-logo"></a>
+                        <div class="col d-flex flex-column ms-3">
+                            <div class="fw-bold">Hugh Dubberly</div>
+                            <div class="fst-italic fw-light">Dubberly Design Office</div>
+                            <div class="fst-italic fw-light"><a href="mailto:hello@dubberly.com">hello@dubberly.com</a></div>
+                        </div>
+                    </div>
+                    <div class="d-flex col-12 col-sm-6 align-items-start float-start mb-5" data-aos="zoom-in-up">
+                        <a href="https://camd.northeastern.edu/center-for-design/" target="_blank"><img src="./static/imgs/logos/cfd.png" class="sponser-logo"></a>
+                        <div class="col d-flex flex-column ms-3">
+                            <div class="fw-bold">Prof. Paolo Ciuccarelli</div>
+                            <div class="fst-italic fw-light">Center for Design, Northeastern University</div>
+                            <div class="fst-italic fw-light"><a href="mailto:p.ciuccarelli@northeastern.edu">p.ciuccarelli@northeastern.edu</a></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex flex-column align-items-center justify-content-center my-4" data-aos="fade-up">
+                    <div class="fw-light h5 fst-italic credit">THANKS FOR</div>
+                    <div class="fw-light my-2">Programming support</div>
+                    <div class="fw-bold text-center">Sean Durham, Wilbert Mui, Robbie Roxas, Matthew Siu, Cody Wackerman</div>
+                </div>
+                <div class="d-flex flex-column align-items-center justify-content-center mb-4" data-aos="fade-up">
+                    <div class="fw-light text-center">Website development</div>
+                    <div class="fw-bold my-2">Liuhuaying Yang</div>
+                </div>
+				 <div class="d-flex flex-column align-items-center justify-content-center mb-4" data-aos="fade-up">
+                    <div class="fw-light text-center">Assistance developing the metadata schema</div>
+                    <div class="fw-bold my-2">Yixuan Zhang</div>
+                </div>
+            </div>
+        </div>
+        <div class="row d-flex align-items-center justify-content-center">
+            <div class="d-flex col-12 g-0 flex-column justify-content-center align-items-center credits">
+                <div class="col-12 d-flex flex-column align-items-center justify-content-center">
+                    <div class="col-12 d-flex flex-column align-items-center justify-content-center sticky-top top-distance" data-aos="fade-up">
+                        <div class="fw-light h5 fst-italic credit mt-2">THANKS TO</div>
+                        <div class="fw-bold my-2">our student research assistants</div>
+                    </div>
+                    <div class="col-12 graph d-flex justify-content-center pb-4" id="students-graph"></div>
+                </div>
+                <div class="col-12 d-flex flex-column align-items-center justify-content-center">
+                    <div class="col-12 d-flex flex-column align-items-center justify-content-center sticky-top top-distance">
+                        <div class="fw-light h5 fst-italic credit mt-2">THANKS TO</div>
+                        <div class="fw-bold my-2">our international contributors</div>
+                    </div>
+                    <div class="col-12 graph" id="contributors-graph"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer></footer>
+    <!-- Libraries -->
+    <script type="text/javascript" src="./lib/bootstrap/bootstrap-5.0/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="./lib/d3.v5.js"></script>
+    <script type="text/javascript" src="./lib/aos/aos.js"></script>
+    <!-- Components -->
+    <script type="text/javascript" src="./js/spiralLineChart_v.js"></script>
+    <script type="text/javascript" src="./js/spiralLineChart_h.js"></script>
+    <script type="text/javascript" src="./js/config.js"></script>
+    <!-- Data -->
+    <script type="text/javascript" src="./js/dataParse.js"></script>
+    <script type="text/javascript" src="./js/Launch.js"></script>
+    <script type="text/javascript">
+    AOS.init();
+    LaunchTeam()
+    </script>
+</body>
+
+</html>

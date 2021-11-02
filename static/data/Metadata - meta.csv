@@ -1,0 +1,70 @@
+type,metatype,attributes,sub-attributes
+Article Metadata,Article Technique,Data Update,
+Article Metadata,Article Technique,Video,
+Article Metadata,Article Technique,Dashboard,
+Article Metadata,Article Technique,Scrollytelling,
+Article Metadata,Article Attributes,ID,
+Article Metadata,Article Attributes,Title,
+Article Metadata,Article Attributes,URL,
+Article Metadata,Article Attributes,Publisher,
+Article Metadata,Article Attributes,Language,
+Article Metadata,Article Attributes,Country,
+Article Metadata,Article Attributes,Date Recorded,
+Article Metadata,Article Attributes,Date,
+Article Metadata,Article Attributes,Data Source,
+Article Metadata,Article Attributes,Source Type,News Media
+Article Metadata,Article Attributes,Source Type,Government
+Article Metadata,Article Attributes,Source Type,NGO
+Article Metadata,Article Attributes,Source Type,Commercial
+Article Metadata,Article Attributes,Source Type,Peer-Reviewed Publication
+Article Metadata,Article Attributes,Source Type,Pre-Peer-Reviewed Publications
+Article Metadata,Article Attributes,Source Type,Independent Media
+Article Metadata,Article Attributes,Source Type,Social Media Posts
+Article Metadata,Article Subject,Medical,Medical Magnitude
+Article Metadata,Article Subject,Medical,Medical Supplies
+Article Metadata,Article Subject,Non-Medical,Non-Medical Economic
+Article Metadata,Article Subject,Non-Medical,Non-Medical Social
+Article Metadata,Article Subject,Non-Medical,Non-Medical Environmental
+Article Metadata,Article Subject,Risk,Risk Historical
+Article Metadata,Article Subject,Risk,Risk Future Model
+Article Metadata,Article Subject,Risk,Risk Flatten the Curve
+Article Metadata,Article Subject,Transmission and Infection,
+Article Metadata,Article Subject,Biomedical Research,
+Article Metadata,Article Subject,Data Viz Advice,
+Figure Metadata,Type of Visualization,Maps,Choropleth Map
+Figure Metadata,Type of Visualization,Maps,Bubble Map
+Figure Metadata,Type of Visualization,Maps,Cartogram
+Figure Metadata,Type of Visualization,Maps,Other Map
+Figure Metadata,Type of Visualization,Bar Charts,Bar Chart
+Figure Metadata,Type of Visualization,Bar Charts,Simple Stacked Bar Chart
+Figure Metadata,Type of Visualization,Bar Charts,100% Stacked Bar Chart
+Figure Metadata,Type of Visualization,Bar Charts,Diverging Stacked Bar Chart
+Figure Metadata,Type of Visualization,Bar Charts,Dumbbell Chart
+Figure Metadata,Type of Visualization,Bar Charts,Span Chart
+Figure Metadata,Type of Visualization,Line Charts,Line Chart
+Figure Metadata,Type of Visualization,Line Charts,Area Chart
+Figure Metadata,Type of Visualization,Line Charts,Stacked Area Chart
+Figure Metadata,Type of Visualization,Line Charts,Streamgraph
+Figure Metadata,Type of Visualization,Line Charts,Slope Chart
+Figure Metadata,Type of Visualization,Various Charts,Pie Chart
+Figure Metadata,Type of Visualization,Various Charts,Treemap
+Figure Metadata,Type of Visualization,Various Charts,Scatter Plot
+Figure Metadata,Type of Visualization,Various Charts,Network
+Figure Metadata,Type of Visualization,Various Charts,Bubble Chart
+Figure Metadata,Type of Visualization,Various Charts,Flow Chart
+Figure Metadata,Type of Visualization,Various Charts,Sankey Chart
+Figure Metadata,Type of Visualization,Various Charts,Heatmap
+Figure Metadata,Type of Visualization,Various Charts,Isotype
+Figure Metadata,Type of Visualization,Various Charts,Gauge Chart
+Figure Metadata,Type of Visualization,Various Charts,Radar Chart
+Figure Metadata,Type of Visualization,Illustrations,Scientific illustration
+Figure Metadata,Type of Visualization,Illustrations,Instructional graphic
+Figure Metadata,Type of Visualization,Other Chart,
+Figure Metadata,Visualization Techniques,Small Multiples,
+Figure Metadata,Visualization Techniques,Time-series animation,
+Figure Metadata,Visualization Techniques,Transition animation,
+Figure Metadata,Visualization Techniques,Educational animation,
+Figure Metadata,Interaction Techniques,Navigating,
+Figure Metadata,Interaction Techniques,Brushing and linking,
+Figure Metadata,Interaction Techniques,Filtering,
+Figure Metadata,Interaction Techniques,Mouseover,

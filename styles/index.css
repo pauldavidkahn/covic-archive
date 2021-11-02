@@ -1,0 +1,317 @@
+html,
+body {
+    font-family: 'Roboto', "Noto Sans", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    color: #333;
+    background: #fff;
+}
+
+#container {
+    padding-bottom: 6rem;
+}
+
+#container,
+footer {
+    background: #f9f6ee;
+}
+
+header {
+    z-index: 1021 !important;
+    background: #fff;
+    transition: all 0.2s;
+}
+
+footer {
+    color: #ddd;
+    font-style: italic;
+
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+}
+
+a {
+    color: #333;
+    text-underline-offset: 0.2em;
+}
+
+a:hover {
+    color: #000;
+}
+
+h5 {
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.tx-bolder {
+    font-weight: 900;
+}
+
+.sticky-top.top-distance {
+    background: #f9f6ee;
+    top: 5px;
+    padding-top: 4.2em;
+}
+
+.sticky-top.top-distance.is-pinned {
+  background: #ffffff;
+} 
+
+/* navigation */
+.navbar-light .navbar-toggler {
+    border: none;
+}
+
+.navbar-toggler:focus {
+    box-shadow: 0 0 0 0.05rem !important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    position: relative;
+    font-weight: bold;
+    line-height: 1.2;
+    font-size: 1.2em;
+    color: #333;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover{
+
+    background: rgba(0,0,0,0.05);
+   /* font-size:1.0em;
+    border-radius: .25rem;*/
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+    color: #fff;
+    background: #333;
+    /*  font-size:1.0em;
+    font-weight: normal;
+    border-radius: .25rem; */
+}
+
+.navbar-brand {
+    font-size: 2em;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1.0em;
+    margin: 0;
+    transition: all 0.2s;
+}
+
+.logo {
+    height: 2.2rem;
+    width: auto;
+    transition: 0.4s;
+}
+
+/* end navigation */
+
+/* landing page */
+.bigfont {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.8vw;
+    line-height: 1;
+}
+
+.bigfont a {
+    text-decoration: none;
+    transition: all 0.4s;
+    color: #333;
+}
+
+.bigfont a:hover {
+    font-style: italic;
+   
+}
+
+.bigfont .bigger {
+    font-size: 1.0em;
+    font-weight: 700;
+}
+
+.mosaics {
+    margin-top: 1em;
+
+}
+
+.mosaic {
+
+    padding: 0.5em;
+}
+
+.mosaic .image {
+    background: #fff;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 6.5em;
+    border: 1px solid #f7f7f7;
+}
+
+.sponser-logo {
+    width: 4em;
+    height: auto;
+}
+
+/* end landing page */
+/* team page */
+.credit {
+    letter-spacing: 2px;
+}
+
+/* team page */
+
+
+/*for covic is*/
+.covicis img {
+    border-radius: 0.4em;
+    border: 1px solid #f7f7f7;
+}
+
+/*end covic is*/
+/*for covic contains*/
+#covic-contains-pills-tabContent>.tab-pane {
+    display: block;
+    transition: all 0.2s;
+}
+
+#covic-contains-pills-tabContent .fade:not(.show) {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+/*end covic contains*/
+/*for meta documentation */
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    background: #333;
+}
+
+.btn-light.active:focus,
+.btn-light:active:focus {
+    box-shadow: none;
+}
+
+.btn-light {
+    background: #ffffff;
+}
+
+/*end meta documentation*/
+/* for covic browser*/
+.airtable-container {
+    height: 70vh;
+    overflow: hidden;
+    border: 1px solid #f5f5f5;
+    background: #ffffff;
+}
+
+.loading-text {
+    height: 100%;
+}
+
+.airtable-container iframe {
+    z-index: 1;
+}
+
+/*end covic browser*/
+
+
+.graph {
+    height: 100vh;
+
+}
+
+.graph-tree {
+    height: fit-content;
+}
+
+#contributors-graph,
+#students-graph {
+    height: auto;
+}
+
+@media screen and (min-width: 1900px) {
+    .bigfont {
+        font-size: 1.8vw;
+
+    }
+
+    .mosaics {
+        width: 80%;
+        margin: 0 auto;
+        margin-top: 1rem;
+    }
+
+    .covicis {
+        width: 80%;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .bigfont {
+        font-size: 2.5vw;
+
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .bigfont {
+        font-size: 3.5vw;
+
+    }
+
+}
+
+@media screen and (max-width: 576px) {
+    .bigfont {
+        font-size: 7vw;
+        line-height: 1.2;
+
+    }
+
+    .logo {
+        height: 2rem;
+    }
+
+    .mosaics .bigfont {
+        font-size: 5.5vw;
+        line-height: 1;
+    }
+
+    .mosaic {
+        padding: 2px;
+    }
+
+    .mosaic .image {
+        height: 4.8em;
+    }
+
+    .para {
+        font-size: 0.85em;
+        line-height: 1.2;
+        padding: 0.8em;
+    }
+
+    .sticky-top.top-distance {
+
+        padding-top: 4em;
+    }
+
+}
+
+@media (orientation: portrait) {
+    .graph {
+        height: 100vw;
+    }
+
+    .graph-tree {
+        height: fit-content;
+    }
+}

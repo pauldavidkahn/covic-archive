@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,400;0,700;0,900;1,200;1,700;1,800;1,900&family=Roboto:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./lib/icomoon/css/icomoon.css">
+    <link rel="stylesheet" href="./lib/bootstrap/bootstrap-5.0/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./lib/aos/aos.css" />
+    <link rel="stylesheet" href="./styles/index.css" />
+</head>
+
+<body>
+    <header class="sticky-top"></header>
+    <div class="container-fluid" id="container">
+        <div class="row d-flex align-items-center justify-content-center">
+            <div class="d-flex col-12 col-md-10 col-lg-7 col-xxl-6 flex-column justify-content-center align-items-center mt-5">
+                <h1 class="bigfont">Metadata Documentation</h1>
+            </div>
+            <ul class="nav nav-pills mt-5 pb-1 mb-2 sticky-top top-distance d-flex col-12 align-items-center justify-content-center" id="pills-tab" role="tablist"></ul>
+            <div class="tab-content col-12 col-md-10 col-lg-7 col-xxl-6" id="pills-tabContent"></div>
+        </div>
+    </div>
+    <footer></footer>
+    <!-- Libraries -->
+    <script type="text/javascript" src="./lib/bootstrap/bootstrap-5.0/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="./lib/d3.v5.js"></script>
+    <script type="text/javascript" src="./lib/aos/aos.js"></script>
+    <!-- Components -->
+    <script type="text/javascript" src="./js/treeChart.js"></script>
+    <script type="text/javascript" src="./js/config.js"></script>
+    <!-- Data -->
+    <script type="text/javascript" src="./js/dataParse.js"></script>
+    <script type="text/javascript" src="./js/Launch.js"></script>
+    <script type="text/javascript">
+    LaunchMeta()
+    </script>
+</body>
+
+</html>

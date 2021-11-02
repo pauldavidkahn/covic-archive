@@ -115,7 +115,7 @@ const PUBLICATIONS = [{
     {
         title: "From scientific visualization to public engagement: learning from a public archive of COVID-19 related visualizations",
         link: "https://www.malofiejgraphics.com/shop",
-        authors: "Paul Kahn & Paolo Ciuccarelli",
+        authors: "Paolo Ciuccarelli Paul & Kahn",
         publisher: "Malofiej 28, 2021",
         img:"malofiej.png"
     }

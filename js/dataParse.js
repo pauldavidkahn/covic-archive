@@ -107,7 +107,7 @@ const PUBLICATIONS = [{
     },
     {
         title: "The Pandemic That Launched A Thousand Visualizations",
-        link: "//eyemagazine.com/feature/article/the-pandemic-that-launched-a-thousand-visualisations",
+        link: "http://eyemagazine.com/feature/article/the-pandemic-that-launched-a-thousand-visualisations",
         authors: "Paul Kahn",
         publisher: "Eye Magazine 101, Summer 2021",
         img:"Eye.png"

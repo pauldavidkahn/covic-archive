@@ -115,7 +115,7 @@ const PUBLICATIONS = [{
     {
         title: "From scientific visualization to public engagement: learning from a public archive of COVID-19 related visualizations",
         link: "//covic-archive.org/static/docs/M28_Libro_SpecialCovid_E1_corrections.pdf",
-        authors: "Paolo Ciuccarelli Paul & Kahn",
+        authors: "Paolo Ciuccarelli & Paul Kahn",
         publisher: "Malofiej 28, 2021",
         img:"malofiej.png"
     }
@@ -124,13 +124,15 @@ const TALKS = [
     {
         title: "Data visualization during the COVID-19 pandemic",
         link: "//www.namahn.com/event/paul-kahn-2/",
+        authors: "Paul Kahn",
         publisher: "Namahn, Brussels, Belgium, June 2020",
         img:"namahn.png"
     },
     {
-        title: "Visualization During The COVID-19 Pandemic",
+        title: "Visualization During The COVID-19 Pandemic (starting at 5:35:00)",
         link: "//www.youtube.com/watch?v=GX9a0u4zkfg",
-        publisher: "datarama #5 (5:35:00), L'&#201;cole de design Nantes Atlantique, September 2020",
+        authors: "Paul Kahn",
+        publisher: "datarama #5, L'&#201;cole de design Nantes Atlantique, September 2020",
         img:"datarama.png"
     }
 ]

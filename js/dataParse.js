@@ -120,8 +120,7 @@ const PUBLICATIONS = [{
         img:"malofiej.png"
     }
 ]
-const TALKS = [
-    {
+const TALKS = [{
         title: "Data visualization during the COVID-19 pandemic",
         link: "//www.namahn.com/event/paul-kahn-2/",
         authors: "Paul Kahn",

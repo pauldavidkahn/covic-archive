@@ -40,7 +40,7 @@ function configFooter() {
     d3.select('footer')
         .attr('class', 'border-top d-flex align-items-center justify-content-center py-5 px-3')
         .html(`
-            <div>@2021</div>
+            <div><a href="mailto:feedback@covic-archive.org">Feedback</a> @2021</div>
             `)
 }
 

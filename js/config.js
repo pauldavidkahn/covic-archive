@@ -40,7 +40,7 @@ function configFooter() {
     d3.select('footer')
         .attr('class', 'border-top d-flex align-items-center justify-content-center py-5 px-3')
         .html(`
-            <div><a href="mailto:feedback@covic-archive.org">Feedback</a> <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License</a>. 2021</div>
+            <div><a href="mailto:feedback@covic-archive.org">Feedback, Comments or Bug Reports</a> © 2021</div>
             `)
 }
 

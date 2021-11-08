@@ -1,0 +1,39 @@
+Editing Notes
+
+js folder
+js/launch.js
+contains the definition of features found in config.js
+This was edited to modify the format of the Talks paragraph
+
+js/config.js
+
+js/dataParse.js
+contains 
+the list of random images for the home page
+the list of students & contributors for the team page
+the elements for the Publication and Talks page
+
+static folder
+data
+this folder contains the csv files for the metadata tree list on COVIC Contains and the six tables on the Metadata Documentation page
+source is maintained here
+https://docs.google.com/spreadsheets/d/1S7GVYbTNV_I3W2g-sskuEj2xXJVPBsapYJ7SuzpLDtM/edit#gid=0
+
+docs
+this folder contains any locally hosted documents
+it contains the Majojeij essay
+
+images
+
+civics
+this contains the image files for COVIC Is
+logos
+these are the partner logos
+publications
+these are the images for the Publications & Talks page
+random
+these are the images for the home page
+the filename for these images must also appear in dataParse.js
+
+fb-share.jpg
+this is the image that will appear when the url is shared on Facebook

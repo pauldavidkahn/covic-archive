@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,400;0,700;0,900;1,200;1,700;1,800;1,900&family=Roboto:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./lib/icomoon/css/icomoon.css">
+    <link rel="stylesheet" href="./lib/bootstrap/bootstrap-5.0/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./lib/aos/aos.css" />
+    <link rel="stylesheet" href="./styles/index.css" />
+</head>
+
+<body>
+    <header class="sticky-top"></header>
+    <div class="container-fluid" id="container">
+        <div class="row d-flex align-items-center justify-content-center">
+            <div class="d-flex col-12 col-md-10 col-lg-7 col-xxl-6 flex-column justify-content-center align-items-center mt-5">
+                <h1 class="bigfont">COVIC Visualizer Tutorial</h1>
+            </div>
+        </div>
+        <div class="row d-flex flex-column align-items-center justify-content-center">
+            <div class="col-12 col-md-7 col-lg-6">
+                <p>The COVIC Visualizer application is designed for exploring the Figures stored in the COVIC archive. Using this application, you can find and examine groups of figures that match a set chosen attributes.</p>
+                <p>The application allows you to view figures in a gallery. Clicking on a figure opens this figure in a modal window. Links in this view allow you see other figures from the same article, a page image of the article, and the source Internet page.</p>
+            </div>
+        </div>
+        <div class="row mb-3 d-flex align-items-center justify-content-center">
+            <div class="col-12 col-md-10 col-lg-8 col-xxl-6">
+                <img class="img-fluid" src="./static/imgs/tutorials/workflow.png">
+            </div>
+        </div>
+        <div class="row d-flex flex-column align-items-center justify-content-center mt-5">
+            <div class="col-12 col-md-7 col-lg-6">
+                <p>The user interface consists of three zones: Header, Filters and Figure Gallery</p>
+            </div>
+        </div>
+        <div class="row mb-3 d-flex align-items-center justify-content-center">
+            <div class="col-12 col-md-10 col-lg-8 col-xxl-6">
+                <img class="img-fluid" src="./static/imgs/tutorials/interface.png">
+            </div>
+        </div>
+        <div class="row d-flex align-items-center justify-content-center tutorial-section position-relative">
+            <ul class="nav nav-pills pb-1 mb-2 sticky-top top-distance d-flex col-12 align-items-center justify-content-center" id="pills-tab-tutorial" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link btn btn-light active" id="pills-header-tab" data-bs-toggle="pill" data-bs-target="#pills-header" type="button" role="tab" aria-controls="pills-header" aria-selected="true">Header</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link btn btn-light" id="pills-filters-tab" data-bs-toggle="pill" data-bs-target="#pills-filters" type="button" role="tab" aria-controls="pills-filters" aria-selected="false">Filters</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link btn btn-light" id="pills-gallery-tab" data-bs-toggle="pill" data-bs-target="#pills-gallery" type="button" role="tab" aria-controls="pills-gallery" aria-selected="false">Figure Gallery</button>
+                </li>
+            </ul>
+            <div class="tab-content col-12 col-md-10 col-lg-7 col-xxl-6" id="pills-tabContent-tutorial">
+                <div class="tab-pane fade show active" id="pills-header" role="tabpanel" aria-labelledby="pills-header-tab">
+                    <p class="fs-4 fst-italic fw-bold">Header</p>
+                    <p>The left side of the header contains two switch controls. These controls will affect all the figures visible in the Figure Gallery.</p>
+                    <div class="row mb-3">
+                        <div class="col-12 col-md-10 col-lg-8 col-xxl-6 float-start">
+                            <img class="img-fluid" src="./static/imgs/tutorials/header-screenshot1.png">
+                        </div>
+                    </div>
+                    <p>Published Date controls the sort order of the figures. When set to New, figures are sorted from newest to oldest. When set to Old, figures are sorted from oldest to newest.</p>
+                    <p>Labels controls the labels that appear below the figures in the Figure Gallery. When set to On, the labels appear. When set to Off, no labels appear, allowing more space to display figures.</p>
+                    <p>The remainder of the header contains the global navigation for the COVIC website (covic-archive.org). The COVIC Contains page documents the Article and Figure attributes found in the Filter Bar (see below).</p>
+                </div>
+                <div class="tab-pane fade" id="pills-filters" role="tabpanel" aria-labelledby="pills-filters-tab">
+                    <p class="fs-4 fst-italic fw-bold">Filters</p>
+                    <p>The Filter Bar is used to find and filter sets of figures that share specific attributes. It consists of three parts: Search, Article Attributes, and Figure Attributes.</p>
+                    <p class="fs-5 fst-italic">Search</p>
+                    <p>Search will limit the display to those figures that contain the text you type in article titles. The search for a single word string will find exact or expanded matches. "mask" will also find "masks". Searching for multiple words will find exact matches only.</p>
+                    <div class="row mb-3">
+                        <div class="col-12 col-md-10 col-lg-8 col-xxl-6 float-start">
+                            <img class="img-fluid" src="./static/imgs/tutorials/filter-screenshot1.png">
+                        </div>
+                    </div>
+                    <p>Type the search term above the SEARCH line and either type ENTER or click on the search icon.</p>
+                    <p>Clicking on the (X) icon will delete the search and reset the gallery display.</p>
+                    <p>Search works in combination with the Article Attributes, and Figure Attributes to filter the Gallery display.</p>
+                    <p class="fs-5 fst-italic">Article Attributes</p>
+                    <p>Filtering with Article Attributes will control the Gallery display using logical OR in combination with logical AND operations.</p>
+                    <div class="row mb-3">
+                        <div class="col-12 col-md-10 col-lg-8 col-xxl-6 float-start">
+                            <img class="img-fluid" src="./static/imgs/tutorials/filter-screenshot2.png">
+                        </div>
+                    </div>
+                    <p class="fw-bold mb-1">Filtering with one attribute.</p>
+                    <p>Filtering on Country: China will limit the Gallery to figures that appear in articles whose publisher is based in that country.</p>
+                    <p class="fw-bold mb-1">Filtering with two or more attributes in the same filter category</p>
+                    <p>Adding another attribute in the same filter category expands the display to include figures that have either of the attributes (logical OR). Filtering on Country: China and Country: Singapore will limit the Gallery to figures that appear in articles whose publisher is based in either of the two countries.</p>
+                    <p class="fw-bold mb-1">Filtering with two or more filter categories</p>
+                    <p>Adding an attribute from a different filter category limits the display to include figure that have both attributes (logical AND). Filtering on Country: China and Country: Singapore and adding Subject: Medical Magnitude will eliminate figures from articles that do not have this subject.</p>
+                    <p class="fw-bold mb-1">Date Range</p>
+                    <p>Figures share the publication date of their article. Use the From and To date range to limit the Gallery to figures that were published between these dates.</p>
+                    <div class="row mb-3">
+                        <div class="col-12 col-md-10 col-lg-8 col-xxl-6 float-start">
+                            <img class="img-fluid" src="./static/imgs/tutorials/filter-screenshot3.png">
+                        </div>
+                    </div>
+                    <p class="fs-5 fst-italic">Figure Attributes</p>
+                    <p>Filtering with Figure Attributes works the same as Article Attributes. Where the article categories are shared by all figures in an article, the figure categories are specific to each figure. One article may contain bar charts, line charts, and choropleth maps. Adding Visualization Type: choropleth map will limit the Gallery to only the choropleth map figures.</p>
+                    <div class="row mb-3">
+                        <div class="col-12 col-md-10 col-lg-8 col-xxl-6 float-start">
+                            <img class="img-fluid" src="./static/imgs/tutorials/filter-screenshot4.png">
+                        </div>
+                    </div>
+                    <p>Figure Attributes behave in combination the same as Article Attributes. Choosing Visualization Type: Choropleth Map and Bubble Map will display figures with either of these visualization types.</p>
+                    <p class="fs-5 fst-italic">APPLY & RESET</p>
+                    <p>Clicking APPLY will search and/or filter the Gallery based on the text in the SEARCH line, the attributes chosen in the filters, and the Date Range settings.</p>
+                    <div class="row mb-3">
+                        <div class="col-12 col-md-10 col-lg-8 col-xxl-6 float-start">
+                            <img class="img-fluid" src="./static/imgs/tutorials/filter-screenshot5.png">
+                        </div>
+                    </div>
+                    <p>The APPLY button becomes active when a filter or search term has been added or modified.</p>
+                    <p>Clicking RESET will erase any search and filter settings and return to the default Gallery display. RESET will also return thee Published Date and Labels switches to their default setting.</p>
+                </div>
+                <div class="tab-pane fade" id="pills-gallery" role="tabpanel" aria-labelledby="pills-gallery-tab">
+                    <p class="fs-4 fst-italic fw-bold">Figure Gallery</p>
+                    <p>Most of the screen is taken up by the Figure Gallery. Each figure is displayed with a subset of metadata appearing below the image. This is a matrix of figures in the collection, which changes based on changes to the filters and switches.</p>
+                    <p>By default, the Gallery displays figures in reverse chronological order by publication date. The number of figures displayed depends on the width of the screen.</p>
+                    <p>The switches will modify the display. The Published Date switch will change the chronological sort order. The Labels switch will turn the labels on (visible) or off (invisible) below the figures.</p>
+                    <p class="fs-5 fst-italic">FIGURE Modal</p>
+                    <p>Clicking on a figure image opens a modal with several states. The state of the modal is controlled by the buttons on the top left of the screen.</p>
+                    <p class="fs-5 fst-italic">FIGURE</p>
+                    <p>The Figure display shows a larger subset of metadata above a larger Figure image. The size of the image will vary depending on the size of the browser window.</p>
+                    <p>The Previous and Next arrows above the metadata labels will navigate to the previous and next Figure according to the order of the Figure Gallery from which the Figure Modal was launched. When there is no Previous or Next figure, the corresponding arrow will not appear.</p>
+                    <p class="fw-bold mb-1">Animations and Video files</p>
+                    <p>If a Figure is an animated GIF, the animation will play when the figure is displayed.</p>
+                    <div class="row mb-3">
+                        <div class="col-12 float-start">
+                            <img class="img-fluid" src="./static/imgs/tutorials/gallery-screenshot1.png">
+                        </div>
+                    </div>
+                    <p>If a Figure is a video file (MP4), the video will not play automatically. To play the video, use the controls that appear at the bottom of the image.</p>
+                    <p class="fs-5 fst-italic">IN ARTICLE</p>
+                    <p>Each Figure is from one Article. Each Article contains one or more figures.</p>
+                    <div class="row mb-3">
+                        <div class="col-12 float-start">
+                            <img class="img-fluid" src="./static/imgs/tutorials/gallery-screenshot2.png">
+                        </div>
+                    </div>
+                    <p>Clicking IN ARTICLE will display all the figures from the same article. The number of Figures in the Article appears above the first Figure.</p>
+                    <p class="fs-5 fst-italic">PAGE</p>
+                    <p>The COVIC collection includes page images for most articles. These have been saved to provide context for the figures. Depending on the type of article, the page image is either a bitmap image (PNG, JPG) or a PDF version available from the source website.</p>
+                    <div class="row mb-3">
+                        <div class="col-12 float-start">
+                            <img class="img-fluid" src="./static/imgs/tutorials/gallery-screenshot3.png">
+                        </div>
+                    </div>
+                    <p>Clicking on PAGE will display the bitmap image below a subset of the metadata or will display the PDF version in a separate browser window.</p>
+                    <p class="fs-5 fst-italic">VISIT</p>
+                    <p>Each Figure is associated with an Article. Each Article is associated with an online address (URL). Clicking on VISIT will launch this URL from which the Article was recorded in a separate window.</p>
+                    <p>When using VISIT, the archived Figures in COVIC may not correspond to the current content of the page from which they were archived. Some percentage of Figures archived in COVIC are static and remain available online in their originally published state. However, many Figures are dynamic, generated from data that changes on a timely basis. Some pages will have been edited and revised after they were recorded. </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer></footer>
+    <!-- Libraries -->
+    <script type="text/javascript" src="./lib/bootstrap/bootstrap-5.0/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="./lib/d3.v5.js"></script>
+    <script type="text/javascript" src="./lib/aos/aos.js"></script>
+    <!-- Components -->
+    <script type="text/javascript" src="./js/treeChart.js"></script>
+    <script type="text/javascript" src="./js/config.js"></script>
+    <!-- Data -->
+    <script type="text/javascript" src="./js/dataParse.js"></script>
+    <script type="text/javascript" src="./js/Launch.js"></script>
+    <script type="text/javascript">
+    LaunchTutorial();
+    </script>
+</body>
+
+</html>

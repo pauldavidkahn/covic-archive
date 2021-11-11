@@ -69,7 +69,7 @@ function configNav(active) {
                         <a class="navbar-brand col-4 text-center d-none d-md-flex flex-row align-items-center justify-content-center" href="index.html"><img id="logo" class="logo" src="./static/imgs/logos/logo.svg"></a>
                         <ul class="navbar-nav mb-lg-0 col-12 d-md-flex flex-column flex-md-row col-md-4 justify-content-end">
                             <li class="nav-item d-md-flex">
-                                <a class="nav-link d-flex justify-content-center ${active == 'tutorial' ? 'active' : ''}" ${active == 'tutorial' ? 'aria-current="page"' : ''}" href="#">Tutorial</a>
+                                <a class="nav-link d-flex justify-content-center ${active == 'tutorial' ? 'active' : ''}" ${active == 'tutorial' ? 'aria-current="page"' : ''}" href="tutorial.html">Tutorial</a>
                             </li>
                             <li class="nav-item d-md-flex">
                                 <a class="nav-link d-flex justify-content-center flex-row flex-md-column ${active == 'publications-and-talks' ? 'active' : ''}" ${active == 'publications-and-talks' ? 'aria-current="page"' : ''} href="publications-and-talks.html"><span class="pe-1">Publications</span><span class="text-nowrap">& Talks</span></a>

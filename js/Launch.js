@@ -310,7 +310,10 @@ function LaunchTeam() {
 
     });
 }
-
+function LaunchTutorial(){
+    configNav('tutorial');
+    configHead('COVIC Visualizer Tutorial');
+}
 window.onscroll = function() { scrollFunction() };
 
 function scrollFunction() {

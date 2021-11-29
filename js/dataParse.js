@@ -59,6 +59,7 @@ const CONTRIBUTORS = [
     'Attila Batorfy',
     'David Bumbeishvili',
     'Sarah Callaghan',
+    'Estefania Ciliotta Chehade',
     'Karim Chaibi',
     'Tarun Deep Chhabra',
     'Lewis Chou',

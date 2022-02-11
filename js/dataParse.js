@@ -103,7 +103,7 @@ const PUBLICATIONS = [{
         title: "COVIC: Collecting Visualizations of Covid-19 to Outline a Space of Possibilities",
         link: "",
         authors: "Paul Kahn, Hugh Dubberly, Dario Rodighiero",
-        publisher: "Design Issues (in press)",
+        publisher: "Design Issues 2022 (in press)",
         img:"COVIC map.png"
     },
     {
@@ -125,8 +125,8 @@ const PUBLICATIONS = [{
 ]
 const TALKS = [
     {
-        title: "Collecting Visualizations in the Time of Coronavirus",
-        link: "//#",
+        title: "Collecting Visualizations in the Time of Coronavirus (available soon)",
+        link: "",
         authors: "Paul Kahn, Dario Rodighiero",
         publisher: "BostonCHI, Feb. 2022",
         img:"BostonCHI talk.jpg"
@@ -134,7 +134,7 @@ const TALKS = [
 
     {
         title: "Visualizing the Invisible: COVID-19 and Information Design",
-        link: "//camd.northeastern.edu/center-for-design/events/",
+        link: "//www.youtube.com/watch?v=EuqLjkDgox8",
         authors: "Paul Kahn, Hugh Dubberly, Isabelle Boutron, Mortiz Stefaner",
         publisher: "Center for Design, Northeastern University, Jan. 2022",
         img:"CfD Conversation image.jpg"

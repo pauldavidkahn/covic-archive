@@ -112,20 +112,19 @@ const PUBLICATIONS = [{
         authors: "Paolo Ciuccarelli & Paul Kahn",
         publisher: "Malofiej 28, 2021",
         img:"malofiej.png"
-    }
+    },
 
-{
+    {
         title: "The Pandemic That Launched A Thousand Visualizations",
         link: "//eyemagazine.com/feature/article/the-pandemic-that-launched-a-thousand-visualisations",
         authors: "Paul Kahn",
         publisher: "Eye Magazine 101, Summer 2021",
         img:"Eye.png"
-    },
+    }
     
 ]
 const TALKS = [
-
-{
+    {
         title: "Collecting Visualizations in the Time of Coronavirus",
         link: "//#",
         authors: "Paul Kahn, Dario Rodighiero",
@@ -133,15 +132,14 @@ const TALKS = [
         img:"BostonCHI talk.jpg"
     },
 
-{
+    {
         title: "Visualizing the Invisible: COVID-19 and Information Design",
         link: "//camd.northeastern.edu/center-for-design/events/",
         authors: "Paul Kahn, Hugh Dubberly, Isabelle Boutron, Mortiz Stefaner",
         publisher: "Center for Design, Northeastern University, Jan. 2022",
         img:"CfD Conversation image.jpg"
     },
-
-{
+    {
         title: "Data visualization during the COVID-19 pandemic",
         link: "//www.namahn.com/event/paul-kahn-2/",
         authors: "Paul Kahn",

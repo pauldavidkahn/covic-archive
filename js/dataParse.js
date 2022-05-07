@@ -129,7 +129,7 @@ const PUBLICATIONS = [{
 ]
 const TALKS = [
     {
-        title: "Collecting Visualizations in the Time of Coronavirus (available soon)",
+        title: "Collecting Visualizations in the Time of Coronavirus",
         link: "//www.youtube.com/watch?v=4hG7hgFXUnI",
         authors: "Paul Kahn, Dario Rodighiero",
         publisher: "BostonCHI, Feb. 2022",

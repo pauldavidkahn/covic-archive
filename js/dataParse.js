@@ -39,6 +39,7 @@ function parseMetaDocument(d) {
 const STUDENTS = [
     'Alison Booth',
     'Nik Brown',
+    'Jonathan Chen',
     'Elizabeth Cory',
     'Christian Dicker',
     'Yinan Dong',
@@ -47,11 +48,14 @@ const STUDENTS = [
     'Jayden Khatib',
     'Yuke Li',
     'Yuqing Liu',
+    'Kimia Pishdadian',
     'Rachel Peterson',
+    'Devashish Sood',
     'Ha Ta',
     'Siyue Tan',
     'Ning Wang',
     'Matthew Wolfinger',
+    'Linda Yan',
     'Zixuan Yang'
 ]
 const CONTRIBUTORS = [
@@ -126,7 +130,7 @@ const PUBLICATIONS = [{
 const TALKS = [
     {
         title: "Collecting Visualizations in the Time of Coronavirus (available soon)",
-        link: "",
+        link: "//www.youtube.com/watch?v=4hG7hgFXUnI",
         authors: "Paul Kahn, Dario Rodighiero",
         publisher: "BostonCHI, Feb. 2022",
         img:"BostonCHI talk.jpg"

@@ -107,7 +107,7 @@ const PUBLICATIONS = [{
         title: "Unimaginable Death, Visualizations of COVID-19 Pandemic Milestones",
         link: "",
         authors: "Paul Kahn, Hugh Dubberly, Liuhuaying Yang",
-        publisher: "Nightingale, journal of the Data Visualization Society, #2, 2022",
+        publisher: "Nightingale, journal of the Data Visualization Society, #2, 2022 (in press)",
         img:"Unimaginable Death.png"
     },
 {

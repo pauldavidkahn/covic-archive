@@ -104,10 +104,17 @@ const CONTRIBUTORS = [
 
 ]
 const PUBLICATIONS = [{
-        title: "COVIC: Collecting Visualizations of Covid-19 to Outline a Space of Possibilities",
+        title: "Unimaginable Death, Visualizations of COVID-19 Pandemic Milestones",
         link: "",
+        authors: "Paul Kahn, Hugh Dubberly, Liuhuaying Yang",
+        publisher: "Nightingale, journal of the Data Visualization Society, #2, 2022",
+        img:"Unimaginable Death.png"
+    },
+{
+        title: "COVIC: Collecting Visualizations of Covid-19 to Outline a Space of Possibilities",
+        link: "//covic-archive.org/static/docs/desi_a_00697.pdf",
         authors: "Paul Kahn, Hugh Dubberly, Dario Rodighiero",
-        publisher: "Design Issues 2022 (in press)",
+        publisher: "Design Issues Volume 38 Number 4 2022",
         img:"COVIC map.png"
     },
     {

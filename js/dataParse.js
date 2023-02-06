@@ -105,10 +105,17 @@ const CONTRIBUTORS = [
 ]
 const PUBLICATIONS = [{
         title: "Unimaginable Death, Visualizations of COVID-19 Pandemic Milestones",
-        link: "",
+        link: "//bit.ly/UnimaginableDeathPDF",
         authors: "Paul Kahn, Hugh Dubberly, Liuhuaying Yang",
-        publisher: "Nightingale, journal of the Data Visualization Society, #2, 2022 (in press)",
+        publisher: "Nightingale, journal of the Data Visualization Society, #2, 2022",
         img:"Unimaginable Death.png"
+    },
+{
+        title: "Behind the Scenes of Unimaginable Death",
+        link: "//nightingaledvs.com/behind-the-scenes-of-unimaginable-death/",
+        authors: "Jason Forrest interview with Paul Kahn, Hugh Dubberly, Liuhuaying Yang",
+        publisher: "Nightingale, Dec. 15, 2022",
+        img:"BehindTheScenes.webp"
     },
 {
         title: "COVIC: Collecting Visualizations of Covid-19 to Outline a Space of Possibilities",

@@ -104,6 +104,13 @@ const CONTRIBUTORS = [
 
 ]
 const PUBLICATIONS = [{
+        title: "Covid visualisations: 2023 update",
+        link: "//www.eyemagazine.com/blog/post/covid-visualisations-2023-update",
+        authors: "Paul Kahn,",
+        publisher: "Eye Magazine Blog, 6 February 2023",
+        img:"Eye blog.png"
+    },
+{
         title: "Unimaginable Death, Visualizations of COVID-19 Pandemic Milestones",
         link: "//bit.ly/UnimaginableDeathPDF",
         authors: "Paul Kahn, Hugh Dubberly, Liuhuaying Yang",

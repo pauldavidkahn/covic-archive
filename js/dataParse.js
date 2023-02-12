@@ -165,8 +165,8 @@ const TALKS = [
         img:"namahn.png"
     },
     {
-        title: "Visualization During The COVID-19 Pandemic (starting at 5:35:00)",
-        link: "//www.youtube.com/watch?v=GX9a0u4zkfg",
+        title: "Visualization During The COVID-19 Pandemic",
+        link: "//youtu.be/GX9a0u4zkfg?t=19944",
         authors: "Paul Kahn",
         publisher: "datarama #5, L'&#201;cole de design Nantes Atlantique, September 2020",
         img:"datarama.png"

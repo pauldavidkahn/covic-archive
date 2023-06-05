@@ -37,3 +37,15 @@ the filename for these images must also appear in dataParse.js
 
 fb-share.jpg
 this is the image that will appear when the url is shared on Facebook
+
+Google tag added 6/5/23 for Google Analytics
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-0VJKBLRZGN"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-0VJKBLRZGN');
+</script>
